@@ -1,1 +1,1 @@
-### This folder contains raw data and analysis scripts
+This folder contains raw data and analysis scripts
