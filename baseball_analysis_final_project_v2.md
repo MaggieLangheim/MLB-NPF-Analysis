@@ -111,6 +111,8 @@ ggplot(mlb2,
 ```
 ![](unnamed-chunk-6-2.png)<!-- -->
 
+#### The MLB plots support the thinking that a higher batting average leads to more wins. 
+
 ```{r}
 ggplot(npf2,
        aes(x = Team, y = AVG, color = Team)) +
@@ -128,8 +130,6 @@ ggplot(npf2,
         axis.ticks.x = element_blank())
 ```
 ![](unnamed-chunk-6-4.png)<!-- -->
-
-#### The MLB plots which support the thinking that a higher batting average leads to more wins. 
 
 #### But for the NPF, there are points on the boxplot that suggest there are factors outside of batting average that contribute to wins. This result makes sense because there are other things that go into a winning team, like pitching, defense, and other aspects of hitting.
 
