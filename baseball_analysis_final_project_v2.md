@@ -68,6 +68,7 @@ ggplot(mlb2,
   geom_point(data = npf2, color = 'blue') +
   xlim(0, .5)
 ```
+![](unnamed-chunk-4-1.png)<!-- -->
 
 #### There are a few things that are noticeable off the bat. Baseball has many more season observations than softball, and softball plays almost three times less games per season than baseball. It is not too important that there are many more baseball observations than softball because the trend for both data sets is similar.
 
@@ -82,6 +83,7 @@ ggplot(mlb3,
   geom_point(data = npf3, color = 'blue') +
   xlim(0, .5)
 ```
+![](unnamed-chunk-5-1.png)<!-- -->
 
 #### Looking at the second scatter plot comparing batting average to wins over time, there are really patterns that do not exist in the season-to-season data. 
 
@@ -117,6 +119,10 @@ ggplot(npf2,
         axis.ticks.x = element_blank())
 
 ```
+![](unnamed-chunk-6-1.png)<!-- -->
+![](unnamed-chunk-6-2.png)<!-- -->
+![](unnamed-chunk-6-3.png)<!-- -->
+![](unnamed-chunk-6-4.png)<!-- -->
 
 #### The MLB plots which support the thinking that a higher batting average leads to more wins. 
 
