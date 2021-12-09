@@ -99,30 +99,30 @@ ggplot(mlb2,
   geom_boxplot() +
   theme(axis.text.x = element_blank(),
         axis.ticks.x = element_blank())
+![](unnamed-chunk-6-1.png)<!-- -->
 
 ggplot(mlb2,
        aes(x = Team, y = Wins, color = Team)) +
   geom_boxplot() +
   theme(axis.text.x = element_blank(),
         axis.ticks.x = element_blank())
+![](unnamed-chunk-6-2.png)<!-- -->
 
 ggplot(npf2,
        aes(x = Team, y = AVG, color = Team)) +
   geom_boxplot() +
   theme(axis.text.x = element_blank(),
         axis.ticks.x = element_blank())
+![](unnamed-chunk-6-3.png)<!-- -->
 
 ggplot(npf2,
        aes(x = Team, y = Wins, color = Team)) +
   geom_boxplot() +
   theme(axis.text.x = element_blank(),
         axis.ticks.x = element_blank())
+![](unnamed-chunk-6-4.png)<!-- -->
 
 ```
-![](unnamed-chunk-6-1.png)<!-- -->
-![](unnamed-chunk-6-2.png)<!-- -->
-![](unnamed-chunk-6-3.png)<!-- -->
-![](unnamed-chunk-6-4.png)<!-- -->
 
 #### The MLB plots which support the thinking that a higher batting average leads to more wins. 
 
